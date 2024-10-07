@@ -1,0 +1,15 @@
+{
+  "name": "Bakes",
+  "version": "1.0.0",
+  "description": "IB Bakes Ecommerce",
+  "main": "index.js",
+  "repository": "https://github.com/Sonawap/online-shopping.git",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^9.0.1"
+  },
+  "scripts": {
+    "install:app": "concurrently \"cd backend && composer install\"",
+    "start": "concurrently \"cd backend && php artisan serve\""
+  }
+}
