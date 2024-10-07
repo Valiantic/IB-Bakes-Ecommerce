@@ -86,3 +86,6 @@ php artisan storage link
 > Folder Category 
 > Add new request Get all categories 
 
+>REDUX
+
+>yarn add react-redux redux axios
