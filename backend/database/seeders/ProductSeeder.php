@@ -2,7 +2,9 @@
 
 namespace Database\Seeders;
 
+//IMPORT THIS DUE TO CATEGORY CLASS BEING USE
 use App\Models\Category;
+
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 

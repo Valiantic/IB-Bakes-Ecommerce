@@ -6,7 +6,11 @@ export default {
   ],
   theme: {
     extend: {},
+    colors: {'rose': "#fbcfe8", 
+    'dark-rose': "#f43f5e",
+    }
   },
   plugins: [],
+  
 }
 
